@@ -76,7 +76,7 @@ public class InventoryApp extends Application {
         root.setPadding(new Insets(12));
         VBox.setVgrow(table, javafx.scene.layout.Priority.ALWAYS);
 
-        stage.setTitle("Inventory Management System");
+        stage.setTitle("Store Inventory Management System");
         stage.setScene(new Scene(root, 800, 480));
         stage.show();
     }
